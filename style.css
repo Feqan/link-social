@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url(img/fundo04.webp);
+    background-size: cover;
+
+}
+
+body.black{
+    background-color: rgba(0, 0, 0, 0.959);
+    color: #fff;
+    font-family: 'Roboto', sans-serif, monospace;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+}
+
+img{
+    width: 100%;
+}
+
+img.perfil{
+    border-radius: 80px;
+    width: 140px;
+    height: 140px;
+    padding: 3.5px;
+    border: #fff solid 3px;
+}
+
+h1{
+    font-size: 38px;
+    margin: 15px 10px;
+}
+
+.usuario{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif, monospace;
+    font-weight: 450;
+    opacity: 0.9;
+}
+
+ul{
+    list-style: none;
+    margin: 30px 0;
+}
+
+ul li a{
+    font-size: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    text-transform: uppercase;
+
+    margin-bottom: 18px;
+    border-radius: 15px;
+
+    transition: background 400ms;
+}
+
+ul li a:hover{
+    background: rgba(253, 57, 57, 0.822);
+}
+
+footer{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+    text-transform: uppercase;
+
+    transition: opacity 400ms;
+}
